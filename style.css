@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: fantasy;
+}
+
+.container{
+	height: 100vh;
+	width: 100%;
+	background-image: url(media/background2.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: : center;
+    justify-content: space-between;
+}
+.logo{
+    width:300px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 18px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col{
+    margin-left: 6%;
+    
+}
+.left-col h1{
+    color: #ffffff;
+    font-size: 3em;
+    line-height: 110px;
+    float: left;
+}
+.left-col p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: : 18px;
+    float: left;
+}
+.right-col{
+float: right;
+margin-right: 6%;
+margin-top:120px;
+display: flex;
+align-items: center;
+}
+.right-col p{
+    font-size: :3em;
+    color: #ffffff;
+    font-weight: :600;
+    margin-right: 15px;
+}
+#icon{
+    width: 120px;
+    cursor: pointer;
+}
+.containerstory{
+	height: 100vh;
+	width: 100%;
+	background-image: url(media/background%20story.jpg.png);
+	background-size: cover;
+
+	background-position: center;
+	position: relative;
+   
+}
+.storycontent
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    float: left;
+top: 10%;
+    max-width: 600px;
+}
+.storycontent h1{
+    color: #ffe5d8;
+    font-size: 60px;
+    font-family: sans-serif;
+    
+}
+.storycontent p{
+  
+   font-family:serif; 
+    font-size: 20px;
+    line-height: 1.6;
+    font-style: oblique;
+}
+.containerstory{
+	height: 100vh;
+	width: 100%;
+	background-image: url(media/background%20story.jpg.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.container2{
+	height: 100vh;
+	width: 100%;
+	background-image: url(media/baristahiring.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.careercontent{
+    color: #ffffff;
+    font-family: sans-serif;
+    float: left;
+top: 20%;
+    max-width: 600px;
+}
+.careercontent h1{
+    color: #ffe5d8;
+    font-size: 60px;
+    font-family: sans-serif;
+    
+}
+.careercontent p{
+  
+   font-family:serif; 
+    font-size: 20px;
+    line-height: 1.6;
+    font-style: oblique;
+    
+}
+.careercontent a{
+    color: #ffe5d8;
+}
+.container3{
+	height: 100vh;
+	width: 100%;
+	background-image: url(media/location.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.storecontent{
+    margin-left: 6%;
+     float: left;
+top: 20%;
+}
+.storecontent h1{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #ffe5d8;
+}
+.storecontent p{
+    font-family: serif;
+    font-style: oblique;
+    font-size: 20px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+   text-align: right;
+    
+    
+}
+
+
